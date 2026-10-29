@@ -1,4 +1,4 @@
-# 🏋️‍♂️ IronTracker — Dashboard Rastreador de Cargas & Powerbuilding
+# 🏋️‍♂️ IronMetrics AI — Dashboard Analítico de Treinos & Powerbuilding
 
 <p align="center">
   <strong>Registre treinos em texto puro com Inteligência Artificial, automatize o cálculo de 1RM, gerencie fadiga acumulada e acompanhe sua sobrecarga progressiva com precisão de elite.</strong>
@@ -134,7 +134,7 @@ A inteligência artificial analisa a sintaxe, normaliza nomes de exercícios, de
 ### Estrutura de Diretórios
 
 ```
-dashboard-rastreador-de-cargas/
+iron-metrics-ai/
 ├── docs/                             # Documentação técnica e especificações
 │   └── superpowers/specs/            # Especificações de design de arquitetura e produto
 ├── public/                           # Ativos estáticos e Service Worker
@@ -206,8 +206,8 @@ dashboard-rastreador-de-cargas/
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/ViktorGabriel/dashboard-rastreador-de-cargas.git
-   cd dashboard-rastreador-de-cargas
+   git clone https://github.com/ViktorGabriel/iron-metrics-ai.git
+   cd iron-metrics-ai
    ```
 
 2. **Instale as dependências:**
@@ -400,7 +400,7 @@ npm run lint
 Desenvolvido com foco em engenharia de ponta por **Viktor Gabriel**.
 
 - **GitHub:** [@ViktorGabriel](https://github.com/ViktorGabriel)
-- **Repositório do Projeto:** [ViktorGabriel/dashboard-rastreador-de-cargas](https://github.com/ViktorGabriel/dashboard-rastreador-de-cargas)
+- **Repositório do Projeto:** [ViktorGabriel/iron-metrics-ai](https://github.com/ViktorGabriel/iron-metrics-ai)
 
 ---
 
