@@ -23,8 +23,10 @@ jobs:
       - name: Install dependencies
         run: npm install --legacy-peer-deps
 
-      - name: Push database schema
-        run: npm run db:push
+      - name: Push database schema & seed
+        run: |
+          npm run db:push
+          npm run db:seed
 
       - name: Run Vitest Unit Tests
         run: npm test
