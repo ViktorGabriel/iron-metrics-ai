@@ -1,7 +1,11 @@
-import { describe, it, expect } from "vitest";
+import { describe, it, expect, beforeAll } from "vitest";
 import { SPLIT_PRESETS, getActiveRoutines, applyPresetSplit } from "../src/lib/preset-routines";
 
 describe("Preset Routines & Workout Splits", () => {
+  beforeAll(async () => {
+    await applyPresetSplit("UPPER_LOWER");
+  });
+
   it("should define all classic splits (Upper/Lower, PPL, PPL+UL, Bro Split)", () => {
     expect(SPLIT_PRESETS.UPPER_LOWER).toBeDefined();
     expect(SPLIT_PRESETS.PPL).toBeDefined();
